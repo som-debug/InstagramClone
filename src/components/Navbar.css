@@ -1,5 +1,5 @@
 img{
-    width: 3%;
+    width: 4%;
     object-fit: contain;
 }
 
@@ -16,4 +16,10 @@ ul{
 li{
     list-style: None;
     padding: 1px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
