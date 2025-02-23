@@ -3,6 +3,7 @@ import "./Navbar.css"
 import logo from "../img/logo.jpg";
 import { Link } from 'react-router-dom';
 
+
 export default function Navbar() {
   return (
     <div className='navbar' >
@@ -18,7 +19,9 @@ export default function Navbar() {
           <Link to="/profile">
             <li>Profile</li>
           </Link>
-
+          <Link to="/createPost" >
+          <li>Create Post</li>
+          </Link>
 
         </ul>
         </div>
